@@ -16,7 +16,7 @@ namespace CustomRenderer.iOS
     public class CustomMapRenderer : MapRenderer
     {
         UIView customPinView;
-        List<CustomPin> customPins;
+        IList<CustomPin> customPins;
 
         protected override void OnElementChanged(ElementChangedEventArgs<View> e)
         {
